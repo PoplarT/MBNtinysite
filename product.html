@@ -44,6 +44,9 @@
 
 <link href="https://fonts.googleapis.com/css?family=Balthazar|Cormorant|Source+Sans+Pro&display=swap" rel="stylesheet">
 
+ <!--  Lazy loading -->
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+
 </head>
 
 
@@ -127,26 +130,26 @@ body {
     <!-- Photo Grid -->
     <div class="row">
       <div class="column">
-        <img src="resources/bottlecap.png" loading=lazy style="width:100%">
-        <img src="resources/deskware.png" loading=lazy style="width:100%">
-        <img src="resources/fibretv.jpg" loading=lazy style="width:100%">
-        <img src="resources/interior.png" loading=lazy style="width:100%">
-        <img src="resources/toyrocket.png" loading=lazy style="width:100%">
+        <img class="lozad" data-src="resources/bottlecap.png" loading=lazy style="width:100%">
+        <img class="lozad" data-src="resources/deskware.png" loading=lazy style="width:100%">
+        <img class="lozad" data-src="resources/fibretv.jpg" loading=lazy style="width:100%">
+        <img class="lozad" data-src="resources/interior.png" loading=lazy style="width:100%">
+        <img class="lozad" data-src="resources/toyrocket.png" loading=lazy style="width:100%">
 
       </div>
       <div class="column">
-        <img src="resources/macropad.png" loading=lazy style="width:100%">
-        <img src="resources/metronome1.jpg" loading=lazy style="width:100%">
-        <img src="resources/prototype.jpg" loading=lazy style="width:100%">
-        <img src="resources/backpack.jpg" loading=lazy style="width:100%">
-        <img src="resources/keypad.png" loading=lazy style="width:100%">
+        <img class="lozad" data-src="resources/macropad.png" loading=lazy style="width:100%">
+        <img class="lozad" data-src="resources/metronome1.jpg" loading=lazy style="width:100%">
+        <img class="lozad" data-src="resources/prototype.jpg" loading=lazy style="width:100%">
+        <img class="lozad" data-src="resources/backpack.jpg" loading=lazy style="width:100%">
+        <img class="lozad" data-src="resources/keypad.png" loading=lazy style="width:100%">
 
       </div>
       <div class="column">
-        <img src="resources/faucet.png" loading=lazy style="width:100%">
-        <img src="resources/pill.png" loading=lazy style="width:100%">
-        <img src="resources/watch.png" loading=lazy style="width:100%">
-        <img src="resources/wrenches.png" loading=lazy style="width:100%">
+        <img class="lozad" data-src="resources/faucet.png" loading=lazy style="width:100%">
+        <img class="lozad" data-src="resources/pill.png" loading=lazy style="width:100%">
+        <img class="lozad" data-src="resources/watch.png" loading=lazy style="width:100%">
+        <img class="lozad" data-src="resources/wrenches.png" loading=lazy style="width:100%">
 
       </div>
     </div>
