@@ -126,27 +126,27 @@ body {
   </div>
     <!-- Photo Grid -->
     <div class="row">
-      <div class="column">
-        <img src="resources/bottlecap.png" loading=lazy style="width:100%">
-        <img src="resources/deskware.png" loading=lazy style="width:100%">
-        <img src="resources/fibretv.jpg" loading=lazy style="width:100%">
-        <img src="resources/interior.png" loading=lazy style="width:100%">
-        <img src="resources/toyrocket.png" loading=lazy style="width:100%">
+      <div class="column wow fadeIn delay2">
+
+        <img class="lazyload"	data-srcset="resources/bottlecap@0,25x.jpg 1x, resources/bottlecap@0,5x.jpg 2x, resources/bottlecap@0,75x.jpg x3, resources/bottlecap.jpg x4"  style="width:100%" />
+        <img class="lazyload"	data-srcset="resources/deskware@0,25x.jpg 1x, resources/deskware@0,5x.jpg 2x, resources/deskware@0,75x.jpg x3, resources/deskware.jpg x4"  style="width:100%" />
+        <img class="lazyload"	data-srcset="resources/fibretv@0,25x.jpg 1x, resources/fibretv@0,5x.jpg 2x, resources/fibretv@0,75x.jpg x3, resources/fibretv.jpg x4"  style="width:100%" />
+        <img class="lazyload"	data-srcset="resources/interior@0,25x.jpg 1x, resources/interior@0,5x.jpg 2x, resources/interior@0,75x.jpg x3, resources/interior.jpg x4"  style="width:100%" />
+        <img class="lazyload"	data-srcset="resources/toyrocket@0,25x.jpg 1x, resources/toyrocket@0,5x.jpg 2x, resources/toyrocket@0,75x.jpg x3, resources/toyrocket.jpg x4"  style="width:100%" />
 
       </div>
-      <div class="column">
-        <img src="resources/macropad.png" loading=lazy style="width:100%">
-        <img src="resources/metronome1.jpg" loading=lazy style="width:100%">
-        <img src="resources/prototype.jpg" loading=lazy style="width:100%">
-        <img src="resources/backpack.jpg" loading=lazy style="width:100%">
-        <img src="resources/keypad.png" loading=lazy style="width:100%">
+      <div class="column wow fadeIn delay3">
+        <img class="lazyload"	data-srcset="resources/macropad@0,25x.jpg 1x, resources/macropad@0,5x.jpg 2x, resources/macropad@0,75x.jpg x3, resources/macropad.jpg x4"  style="width:100%" />
+        <img class="lazyload"	data-srcset="resources/metronome1@0,25x.jpg 1x, resources/metronome1@0,5x.jpg 2x, resources/metronome1@0,75x.jpg x3, resources/metronome1.jpg x4"  style="width:100%" />
+        <img class="lazyload"	data-srcset="resources/prototype@0,25x.jpg 1x, resources/prototype@0,5x.jpg 2x, resources/prototype@0,75x.jpg x3, resources/prototype.jpg x4"  style="width:100%" />
+        <img class="lazyload"	data-srcset="resources/backpack@0,25x.jpg 1x, resources/backpack@0,5x.jpg 2x, resources/backpack@0,75x.jpg x3, resources/backpack.jpg x4"  style="width:100%" />
 
       </div>
-      <div class="column">
-        <img src="resources/faucet.png" loading=lazy style="width:100%">
-        <img src="resources/pill.png" loading=lazy style="width:100%">
-        <img src="resources/watch.png" loading=lazy style="width:100%">
-        <img src="resources/wrenches.png" loading=lazy style="width:100%">
+      <div class="column wow fadeIn delay4">
+        <img class="lazyload"	data-srcset="resources/faucet@0,25x.jpg 1x, resources/faucet@0,5x.jpg 2x, resources/faucet@0,75x.jpg x3, resources/faucet.jpg x4"  style="width:100%" />
+        <img class="lazyload"	data-srcset="resources/pill@0,25x.jpg 1x, resources/pill@0,5x.jpg 2x, resources/pill@0,75x.jpg x3, resources/pill.jpg x4"  style="width:100%" />
+        <img class="lazyload"	data-srcset="resources/watch@0,25x.jpg 1x, resources/watch@0,5x.jpg 2x, resources/watch@0,75x.jpg x3, resources/watch.jpg x4"  style="width:100%" />
+        <img class="lazyload"	data-srcset="resources/keypad@0,25x.jpg 1x, resources/keypad@0,5x.jpg 2x, resources/keypad@0,75x.jpg x3, resources/keypad.jpg x4"  style="width:100%" />
 
       </div>
     </div>
@@ -169,6 +169,10 @@ body {
 
   <!-- Template Specisifc Custom Javascript File -->
   <script src="js/custom.js"></script>
+
+    <!-- Lazyloading -->
+  <script src="js/lazysizes.min.js" async=""></script>
+
 
 </body>
 
