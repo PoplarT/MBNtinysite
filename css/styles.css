@@ -120,17 +120,19 @@
 font-family: 'Cormorant', serif;
 color: #080E33;
 font-size: 3em;
-font-weight:bold;
+font-weight: bolder;
 
 
 }
 
 a:link {
-  color:  #FF7473;
+/*  color:  #FF7473; */
+color: #080E33;
 }
 
 a:visited{
-  color:  #FF7473;
+/*  color:  #FF7473; */
+color: #080E33;
 }
 a:hover{
   color: #FF7473;
